@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: envars-test-container
-    image: busybox
+    image: nginx
     envFrom:
     - secretRef:
         name: workers-secret
