@@ -12,3 +12,4 @@ spec:
     envFrom:
     - configMapKeyRef:
         name: workers-config
+        
