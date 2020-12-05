@@ -12,7 +12,7 @@ spec:
     envFrom:
     - configMapRef:
         name: web-api-config
-  imagePullSecrets:
-  - name: registry-secret-worker
+  #imagePullSecrets:
+  #- name: registry-secret-worker
   
     
