@@ -10,7 +10,7 @@ spec:
     - secretRef:
         name: workers-secret
     envFrom:
-    - configMapKeyRef:
+    - configMapRef:
         name: web-api-config
   imagePullSecrets:
   - name: registry-secret-worker
