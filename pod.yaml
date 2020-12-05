@@ -4,7 +4,7 @@ metadata:
   name: roko-secret
 spec:
   containers:
-  - name: envars-test-container
+  - name: nginx
     image: nginx
     envFrom:
     - secretRef:
