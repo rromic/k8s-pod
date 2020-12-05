@@ -9,3 +9,4 @@ spec:
     envFrom:
     - secretRef:
         name: workers-secret
+
