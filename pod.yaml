@@ -9,7 +9,4 @@ spec:
     envFrom:
     - secretRef:
         name: workers-secret
-    envFrom:
-    - configMapKeyRef:
-        name: workers-config
-        
+       
