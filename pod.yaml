@@ -5,7 +5,9 @@ metadata:
 spec:
   containers:
   - name: envars-test-container
-    image: nginx
+    image: registry.gitlab.com/datenn/main/backend-web-client/backend-web-app:v0.0.87
+  imagePullSecrets:
+  - name: registry-secret-worker
     envFrom:
     - secretRef:
         name: workers-secret
