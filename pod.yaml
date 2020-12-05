@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: envfrom-secret
+  name: roko-secret
 spec:
   containers:
   - name: envars-test-container
@@ -9,4 +9,3 @@ spec:
     envFrom:
     - secretRef:
         name: workers-secret
-
