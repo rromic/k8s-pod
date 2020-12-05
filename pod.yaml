@@ -8,6 +8,9 @@ spec:
     image: nginx
     envFrom:
     - secretRef:
+        name: githubcreds
+    envFrom:
+    - secretRef:
         name: web-api-secrets
     envFrom:
     - configMapRef:
