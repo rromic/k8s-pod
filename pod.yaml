@@ -7,11 +7,11 @@ spec:
   - name: nginx
     image: nginx
     envFrom:
+    - configMapRef:
+        name: web-api-config
+    envFrom:
     - secretRef:
         name: web-api-secrets
-    #envFrom:
-    #- configMapRef:
-        #name: web-api-config
   #imagePullSecrets:
   #- name: registry-secret-worker
     
