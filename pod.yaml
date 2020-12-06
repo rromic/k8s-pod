@@ -10,8 +10,8 @@ spec:
     - secretRef:
         name: web-api-secrets
     #envFrom:
-    - configMapRef:
-        name: web-api-config
+    #- configMapRef:
+        #name: web-api-config
   #imagePullSecrets:
   #- name: registry-secret-worker
     
